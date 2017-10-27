@@ -9,6 +9,11 @@
 
 /* Reset */
 
+
+	body {
+	    overflow:hidden;
+	}
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -2012,7 +2017,7 @@
 			}
 
 			.panel > *.color2 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #0f0f0f 20%, #242424);
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #000000 20%, #161616);
 				background-size: 128px 128px, auto;
 				background-color: #e37b7c;
 			}
@@ -2529,7 +2534,7 @@
 		}
 
 		.panel.color2 {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, #000000 20%, #161616);
 			background-size: 128px 128px, auto;
 			background-color: #e37b7c;
 		}
@@ -2587,7 +2592,7 @@
 			}
 
 			.panel > *.color2 {
-				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #000000 20%, #161616);
 				background-size: 128px 128px, auto;
 				background-color: #e37b7c;
 			}
@@ -3014,7 +3019,7 @@
 			}
 
 			.panel.color2 {
-				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #000000 20%, #161616);
 				background-size: 128px 128px, auto;
 				background-color: #e37b7c;
 			}
@@ -3250,7 +3255,7 @@
 		}
 
 			.panel.spotlight.left .content {
-				background-image: linear-gradient(-90deg, transparent 0%, rgba(0, 0, 0, 0.125) 30%, rgba(0, 0, 0, 0.175) 50%);
+				background-image: linear-gradient(45deg, #e200d2 20%, #331fe7);
 			}
 
 		.panel.spotlight.right {
@@ -3261,7 +3266,7 @@
 		}
 
 			.panel.spotlight.right .content {
-				background-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.125) 30%, rgba(0, 0, 0, 0.175) 50%);
+				background-image: linear-gradient(45deg, #e200d2 20%, #331fe7);
 			}
 
 	@media screen and (max-width: 736px) {
@@ -3272,7 +3277,7 @@
 			-webkit-flex-direction: column !important;
 			-ms-flex-direction: column !important;
 			flex-direction: column !important;
-			background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 70%, rgba(0, 0, 0, 0.175)) !important;
+			background-image: linear-gradient(45deg, #e200d2 20%, #331fe7) !important;
 			min-height: 25rem;
 		}
 
